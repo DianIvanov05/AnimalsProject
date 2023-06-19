@@ -79,7 +79,7 @@ namespace Animal11d.Views
                 Console.WriteLine("ID: " + animal.Id);
                 Console.WriteLine("Name: " + animal.Name);
                 Console.WriteLine("Age: " + animal.Age);
-                Console.WriteLine("Stock: " + animal.BreedsId);
+                Console.WriteLine("Breed: " + animal.BreedsId);
                 Console.WriteLine(new string('-', 40));
             }
         }
@@ -125,7 +125,7 @@ namespace Animal11d.Views
             var products = animalLogic.GetAll();
             foreach (var item in products)
             {
-                Console.WriteLine("{0} {1} {2} {3}", item.Id, item.Name, item.Age, item.BreedsId);
+                Console.WriteLine($"{item.Id}. Name: {item.Name}, Age: {item.Age}, Breed {item.Breeds.Name}");
             }
         }
         }

@@ -48,7 +48,7 @@ namespace Animal11d.Controllers
         }
 
         public void Delete(int id)
-        {
+        {   
             Animal findedAnimal = _animalsDbContext.Animals.Find(id);
             _animalsDbContext.Animals.Remove(findedAnimal);
             _animalsDbContext.SaveChanges();

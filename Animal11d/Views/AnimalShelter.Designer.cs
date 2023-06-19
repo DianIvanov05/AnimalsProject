@@ -129,7 +129,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(31, 352);
+            this.button1.Location = new System.Drawing.Point(85, 370);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 57);
             this.button1.TabIndex = 2;
@@ -139,7 +139,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(172, 352);
+            this.button2.Location = new System.Drawing.Point(284, 370);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(111, 57);
             this.button2.TabIndex = 2;
@@ -149,7 +149,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(320, 352);
+            this.button3.Location = new System.Drawing.Point(469, 370);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(106, 57);
             this.button3.TabIndex = 2;
@@ -159,9 +159,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(146, 428);
+            this.button4.Location = new System.Drawing.Point(659, 370);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(163, 57);
+            this.button4.Size = new System.Drawing.Size(116, 57);
             this.button4.TabIndex = 2;
             this.button4.Text = "Открий по Id";
             this.button4.UseVisualStyleBackColor = true;
@@ -187,9 +187,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(417, 93);
+            this.listBox1.Location = new System.Drawing.Point(284, 93);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(388, 228);
+            this.listBox1.Size = new System.Drawing.Size(521, 228);
             this.listBox1.TabIndex = 4;
             // 
             // AnimalShelter
