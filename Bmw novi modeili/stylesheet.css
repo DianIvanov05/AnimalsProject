@@ -1,0 +1,30 @@
+﻿body
+{
+}
+
+.topMenu ul {
+    padding: 0px;
+    height: 40px;
+    line-height: 30px;
+    background-color: #33F0FF;
+    text-align: center;
+}
+
+.topMenu li {
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #33BEFF;
+    display: inline-block;
+}
+
+    .topMenu li:hover {
+        background-color: #DCAA79;
+        padding: 5px 0;
+    }
+
+.topMenu a {
+    text-decoration: none;
+    color: #fff;
+}
